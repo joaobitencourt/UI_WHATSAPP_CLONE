@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/09d212f372.js" crossorigin="anonymous"></script>
+    <title>Whatsapp</title>
+</head>
+<body>
+  <div class="container">
+        <aside class="sideBar">
+            <div class="toolBarContainer">
+                <img class="userPhoto" src="/img/avatar1.png" alt="User photo">
+                <section class="auxicon-toolBarContainer">
+                    <i class="fas fa-spinner"></i>
+                    <i class="fas fa-comment-alt"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </section>
+            </div>
+            <div class="notificationContainer">
+                <i class="fas fa-bell-slash"></i>
+                <p class="reciveNotification">Receba notificações de novas menssagens</p>
+                <p class="activeNotification">
+                    Ativar notificações na área de trabalho
+                    <i class="fas fa-angle-right"></i>
+                </p>
+            </div>
+            <div class="searchContainer">
+                <i id="contactSearch" class="fas fa-search"></i>
+                <input type="text" name="search" id="search" placeholder="Search for any chat or start new chat">
+            </div>
+            <div class="contactsContainer">
+                <section class="contactBox activeChat">
+                    <img  class="userPhoto" src="/img/avatar2.png" alt="user Photo two">
+                    <section class="userInfo">
+                        <p class="userName">Sabrina Matos</p>
+                        <p class="userMessagePreview">
+                        <i class="fas fa-check-double"></i>   
+                        bom dia, como você está?</p>
+                    </section>
+                    <section class="messgeInfo">
+                        <p class="messagetime">01:40</p>
+                        <p class="messagePending">10</p>
+                    </section>
+                </section>
+                <section class="contactBox">
+                    <img  class="userPhoto" src="/img/avatar3.png" alt="user Photo two">
+                    <section class="userInfo">
+                        <p class="userName">Eduardo</p>
+                        <p class="userMessagePreview">bom dia, como você está</p>
+                    </section>
+                    <section class="messgeInfo">
+                        <p class="messagetime">10:40</p>
+                        <p class="messagePending">6</p>
+                    </section>
+                </section>
+                <section class="contactBox">
+                    <img  class="userPhoto" src="/img/avatar4.png" alt="user Photo two">
+                    <section class="userInfo">
+                        <p class="userName">Monica</p>
+                        <p class="userMessagePreview">bom dia, como você está</p>
+                    </section>
+                    <section class="messgeInfo">
+                        <p class="messagetime">12:40</p>
+                    </section>
+                </section>
+            </div>
+        </aside>
+        <main class="chatContainer">
+            <nav class="chatNavbar">
+                <div class="contactInfoContainer">
+                    <img src="/img//avatar2.png" class="userPhoto">
+                    <p class="userName">Sabrina Matos</p>
+                </div>
+                <ul class="chatTools">
+                    <li><i class="fas fa-search" ></i></li>
+                    <li><i class="fas fa-paperclip" ></i></li>
+                    <li><i class="fas fa-ellipsis-v" ></i></li>
+                </ul>
+            </nav>
+            <div class="messagesContainer">
+                <section class="bgImage"></section>
+                <section class="chatMessage">
+                    <p class="guestMessage">olá, bom dia</p>
+                    <p class="userMessage">ok</p>
+                </section>
+            </div>
+            <div class="sendMessageContainer">
+                <i class="fas fa-grin"></i>
+                <input type="text" name="messge" id="chatMessage" class="userInput" placeholder="Deigite uma mensagem...">
+                <i class="fas fa-microphone" ></i>
+            </div>
+        </main>
+  </div>
+</body>
+</html>
+
